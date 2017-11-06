@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>gerador-img</title>
+  <link rel="stylesheet" href="./dist/app.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="container height-full">
+      <div class="basis05 menu-icons hidden"></div>
+      <div class="basis2 menu-principal">
+
+        <div class="item1">
+          <h2>Align</h2>
+
+
+          <div class="container alignStyle">
+            <div class="">
+              <input type="radio" id="left" name="jus" v-model="justify" value="justify-start">
+              <label for="left"><img src="./src/assets/svg/002-left-alignment.svg" alt=""></label>
+              <br />
+            </div>
+            <div class="">
+              <input type="radio" id="center" name="jus" v-model="justify" value="justify-center">
+              <label for="center"><img src="./src/assets/svg/001-center-alignment.svg" alt=""></label>
+              <br />
+            </div>
+            <div class="">
+              <input type="radio" id="right" name="jus" v-model="justify" value="justify-end">
+              <label for="right"><img src="./src/assets/svg/003-right-alignment.svg" alt=""></label>
+            </div>
+          </div>
+
+          <div class="container alignStyle">
+            <div class="">
+              <input type="radio" id="top" name="ali" v-model="align" value="align-start">
+              <label for="top"><img src="./src/assets/svg/006-vertical-alignment.svg" alt=""></label>
+              <br />
+            </div>
+            <div class="">
+              <input type="radio" id="center2" name="ali" v-model="align" value="align-center">
+              <label for="center2"><img src="./src/assets/svg/004-vertical-alignment-2.svg" alt=""></label>
+              <br />
+            </div>
+            <div class="">
+              <input type="radio" id="bottom" name="ali" v-model="align" value="align-end">
+              <label for="bottom"><img src="./src/assets/svg/005-vertical-alignment-1.svg" alt=""></label>
+            </div>
+          </div>
+
+
+          <!-- {{align}} -->
+
+
+
+
+        </div>
+
+
+        <div class="item1">
+          <h2>Image</h2>
+          <div v-if="!image">
+
+            <label for="imgPrincipal">
+              Enviar imagem
+            </label>
+            <input id="imgPrincipal" type="file" @change="onFileChange" class="hide">
+          </div>
+
+
+          <div v-if="image" v-cloak>
+            <p>width</p>
+            <input type="number" v-model="widthValue" placeholder="width">
+            <p>height</p>
+            <input type="number" v-model="heightValue" placeholder="height">
+            <br />
+            <button @click="removeImage">Remove image</button>
+          </div>
+
+        </div>
+
+
+        <!-- <div class="item1">
+          <h2>Size</h2>
+
+          <button v-on:click="counter++">+</button>
+          <button v-on:click="counter--">-</button>
+          <p>{{ counter }}</p>
+
+        </div> -->
+
+
+        <div class="item1">
+          <h2>Text</h2>
+          <h4>title</h4>
+          <input type="text" v-model="text" placeholder="Digite seu texto">
+          <button v-show="!shown" @click="toggleText">Adicionar</button>
+          <button v-show="shown" @click="toggleText">Remover</button>
+
+
+          <h4>subtitle</h4>
+          <input type="text" v-model="stext" placeholder="Digite seu texto">
+          <button v-show="!shownn" @click="toggleStext">Adicionar</button>
+          <button v-show="shownn" @click="toggleStext">Remover</button>
+          <br />
+
+
+
+          <h4>Color</h4>
+          <compact-picker v-model="colors"></compact-picker>
+
+          <h4>Title font size</h4>
+          <input min="12" max="60" v-model="fontSize" type="range">
+
+          <h4>Subtitle font size</h4>
+          <input min="12" max="60" v-model="fontSizes" type="range">
+
+        </div>
+
+
+
+
+        <!-- <div class="item1">
+      <div id="todo-list-example">
+        <input v-model="newTodoText" v-on:keyup.enter="addNewTodo" placeholder="Add a todo">
+        <ul>
+          <li is="todo-item" v-for="(todo, index) in todos" v-bind:key="todo" v-bind:title="todo" v-on:remove="todos.splice(index, 1)"></li>
+        </ul>
+      </div>
+    </div> -->
+
+      </div>
+      <div class="basis5 flex conteudo">
+        <div class="container center height-full">
+          <div class="role container" v-bind:class="[justify, align]" v-bind:style="{ width: widthValue + 'px', background: 'url(' + image + ')', height: heightValue + 'px'}">
+            <!-- <img v-if="image" :src="image" style="object-fit: cover" v-bind:style="{ width: widthValue + 'px', height: heightValue + 'px'}"/> -->
+            <div class="aqui">
+              <h1 v-show="shown" v-text="text" v-bind:style="{ color: colors.hex, fontSize: fontSize + 'px' }"></h1>
+              <p v-show="shownn" v-text="stext" v-bind:style="{ color: colors.hex, fontSize: fontSizes + 'px' }"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+  <script src="./dist/build.js"></script>
+</body>
+
+</html>

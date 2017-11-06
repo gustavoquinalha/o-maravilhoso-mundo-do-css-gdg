@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/ghq.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <title>O maravilhoso mundo do CSS - @gustavoquinalha</title>
+  <meta name="description" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta name="author" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
+  <link rel="base" href="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/" />
+  <link rel="canonical" href="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/" />
+  <meta rel="sitemap" type="application/xml" content="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/" />
+  <meta name="robots" content="index/follow" />
+  <meta name="googlebot" content="index/follow" />
+  <meta name="theme-color" content="#222222" />
+  <meta name="msapplication-navbutton-color" content="#222222" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#222222" />
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta itemprop="description" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta itemprop="image" content="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/img/seo.png" />
+  <!-- markup for facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta property="og:url" content="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/" />
+  <meta property="og:site_name" content="flexbox" />
+  <meta property="og:image" content="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/img/seo.png" />
+  <meta property="og:description" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta property="og:locale" content="pt_Br" />
+  <meta property="fb:app_id" content="" />
+  <meta property="fb:admins" content="" />
+  <!-- markup for twitter -->
+  <meta name="twitter:card" content="Gallery" />
+  <meta name="twitter:title" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta name="twitter:description" content="O maravilhoso mundo do CSS - @gustavoquinalha" />
+  <meta name="twitter:creator" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
+  <meta name="twitter:image" content="https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/img/seo.png" />
+  <!-- JSON-LD - structured data markup Google Search -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@type": "website",
+      "name": "O maravilhoso mundo do CSS",
+      "alternateName": "flexbox",
+      "url": "https://gustavoquinalha.github.io/o-maravilhoso-mundo-do-css/"
+    }
+  </script>
+  <style media="screen">
+    img {
+      max-width: 100%
+    }
+  </style>
+
+
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section class="intro" data-background="#00d46a">
+
+        <h1><span style="color: #222">O maravilhoso mundo do CSS</h1>
+        <hr class="hr-theme" style="background: #222">
+        <p><a class="color-white" href="http://bit.ly/2AaR9BZ" target="_blank">http://bit.ly/2AaR9BZ</a></p>
+      </section>
+
+      <section>
+        <section style="text-align: left!important">
+          <h2>Gustavo Quinalha</h2>
+          <div class="container">
+            <div class="flex">
+              <small><strong>Developer na Monk</strong></small>
+              <br />
+              <small><a class="color-white" href="mailto:gusquinalha@hotmail.com">gusquinalha@hotmail.com</a></small>
+              <br />
+              <ul>
+                <li><a href="https://github.com/gustavoquinalha" target="_blank">Github</a></li>
+                <li><a href="https://codepen.io/gustavoquinalha/" target="_blank">Codepen</a></li>
+                <li><a href="https://www.linkedin.com/in/gustavo-quinalha-2a6b83101/" target="_blank">Linkedin</a></li>
+                <li><a href="https://www.behance.net/gustavoquinalha" target="_blank">Behance</a></li>
+                <li><a href="https://www.twitter.com/gustavoquinalha" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="basis4">
+              <img src="img/eu.jpg" alt="" width="300" class="rounded">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="color">Meus slides</h2>
+          <hr class="hr-theme">
+          <ul>
+            <li><a href="http://quinalha.me/flexbox/" target="_blank">Flexbox do jeito certo</a></li>
+            <li><a href="http://quinalha.me/um-mundo-de-possibilidades-com-flexbox/" target="_blank">Um mundo de possibilidades com Flexbox</a></li>
+            <li><a href="http://quinalha.me/o-maravilhoso-mundo-do-css/" target="_blank">O maravilhoso mundo do CSS</a></li>
+        </section>
+      </section>
+
+      <section>
+        <section class="">
+          <h2>Ahh o CSS</h2>
+          <hr class="hr-theme">
+          <img src="img/css.gif" width="700" alt=""><br>
+          <small><a href="#">Codepen</a></small>
+        </section>
+
+        <section>
+          <span>Tem o poder de fazer isso aqui</span>
+          <img src="img/ex1.jpeg" width="800" alt=""><br>
+        </section>
+
+        <section>
+          <span>virar isso aqui</span>
+          <img src="https://media.giphy.com/media/l4tV2rIxHof31TcgU/giphy.gif" width="800" alt=""><br>
+        </section>
+
+        <section>
+          <h2>É o CSS que faz o UI/UX funcionar, é também o responsável pela acessibilidade, então precisamos muito focar nele.</h2>
+        </section>
+
+        <section>
+          <h2>Um bom design mostra a qualidade do serviço!</h2>
+        </section>
+
+        <section>
+          <img src="img/inspecionar.png" width="800" alt=""><br>
+        </section>
+
+        <section>
+          <h2>O seu back-end só vai fazer a diferença se seu front-end for realmente bom!</h2>
+        </section>
+
+        <section>
+          <h2>O seu front-end só vai fazer a diferença se seu back-end for realmente bom!</h2>
+        </section>
+
+        <section data-background="img/esferas2.jpg">
+        </section>
+
+      </section>
+
+      <section>
+
+        <section>
+          <h2>O melhor do CSS</h2>
+          <hr class="hr-theme">
+          <ul class="best">
+            <li>Flexbox</li>
+            <li>Grid Layout</li>
+            <li>Animações <span>(Keyframes, Transforms e Transitions)</span></li>
+            <li>SVG</li>
+            <li>Estilização <span>(Shadows, gradients, borders)</span></li>
+            <li>O resto</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Como pensam que é:</h2>
+          <div class="box-test">
+            <ul>
+              <li>
+                <span>margin: </span> <b>10px</b>;
+              </li>
+              <li>
+                <span>padding: </span> <b>20px</b>;
+              </li>
+              <li>
+                <span>background: </span> <b>red</b>;
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Como realmente é:</h2>
+          <hr class="hr-theme">
+          <ul class="best">
+            <li>Planejamento<span>(Ui/Ux, Styleguide ❤)</span></li>
+            <li>Lógica</li>
+            <li>Redundância</li>
+            <li>Performance<span>!important</span></li>
+
+          </ul>
+        </section>
+
+      </section>
+
+      <section>
+        <section>
+          <h1>Flexbox</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>CSS GRID LAYOUT</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>ANIMAÇÕES (KEYFRAMES, TRANSFORMS E TRANSITIONS)</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>SVG</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>ESTILIZAÇÃO</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>O RESTO</h1>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h1>SUSPRESA</h1>
+          <hr class="hr-theme">
+        </section>
+
+
+      </section>
+
+
+      <section>
+
+        <section>
+          <h3>Perguntas?</h3>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <p>Fique avontade para me mandar suas dúvidas no email <span class="color-green">gusquinalha@gmail.com</span> ou você tambem pode abrir uma issue nesse <a href="https://github.com/gustavoquinalha/o-maravilhoso-mundo-do-css" target="_blank">repositório.</a></p>
+        </section>
+
+      </section>
+
+      <section>
+
+        <section>
+          <h2 class="color">CSS Awards</h2>
+          <hr class="hr-theme">
+          <ul>
+            <li><a href="https://www.awwwards.com/">https://www.awwwards.com/</a></li>
+            <li><a href="http://www.csswinner.com/">http://www.csswinner.com/</a></li>
+            <li><a href="https://www.cssdesignawards.com/">https://www.cssdesignawards.com/</a></li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section>
+
+        <section>
+          <h2 class="color">LINKS</h2>
+          <hr class="hr-theme">
+        </section>
+
+        <section>
+          <h2 class="color">LINKS FLEXBOX</h2>
+          <ul style="font-size: 1.5rem">
+            <li><a href="https://www.w3.org/TR/css-flexbox-1/">https://www.w3.org/TR/css-flexbox-1/</a></li>
+            <li><a href="https://tympanus.net/codrops/css_reference/flexbox/">https://tympanus.net/codrops/css_reference/flexbox/</a></li>
+            <li><a href="https://facebook.github.io/react-native/docs/flexbox.html">https://facebook.github.io/react-native/docs/flexbox.html</a></li>
+            <li><a href="https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b">https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b</a></li>
+            <li><a href="https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053">https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053</a></li>
+            <li><a href="https://pt.slideshare.net/rachelandrew/flexbox-and-grid-layout">https://pt.slideshare.net/rachelandrew/flexbox-and-grid-layout</a></li>
+            <li><a href="https://www.youtube.com/watch?v=_98SE8WUvLk">https://www.youtube.com/watch?v=_98SE8WUvLk</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="color">LINKS SVG</h2>
+          <ul style="font-size: 1.5rem">
+            <li><a href="https://github.com/willianjusten/awesome-svg">https://github.com/willianjusten/awesome-svg</a></li>
+            <li><a href="https://jakearchibald.com/2013/animated-line-drawing-svg/">https://jakearchibald.com/2013/animated-line-drawing-svg/</a></li>
+            <li><a href="https://vecta.io/app/edit/-KtwDC0qnA3wNPcd21Oh">https://vecta.io/app/edit/-KtwDC0qnA3wNPcd21Oh</a></li>
+            <li><a href="https://designmodo.com/svg-patterns/">https://designmodo.com/svg-patterns/</a></li>
+            <li><a href="https://designmodo.com/svg-animation/">https://designmodo.com/svg-animation/</a></li>
+            <li><a href="http://slides.com/sdrasner/svg-can-do-that">http://slides.com/sdrasner/svg-can-do-that</a></li>
+            <li><a href="https://css-tricks.com/transparent-jpg-svg/">https://css-tricks.com/transparent-jpg-svg/</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL">https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL</a></li>
+            <li><a href="https://jakearchibald.github.io/svgomg/">https://jakearchibald.github.io/svgomg/</a></li>
+            <li><a href="https://kosamari.github.io/sbn/">https://kosamari.github.io/sbn/</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="color">LINKS Animações</h2>
+          <ul style="font-size: 1.5rem">
+            <li><a href="https://codepen.io/gustavoquinalha/">https://codepen.io/gustavoquinalha/</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Usando_anima%C3%A7%C3%B5es_CSS">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Usando_anima%C3%A7%C3%B5es_CSS</a></li>
+            <li><a href="https://css-tricks.com/almanac/properties/a/animation/">https://css-tricks.com/almanac/properties/a/animation/</a></li>
+            <li><a href="https://codepen.io/willianjusten/pens/public/">https://codepen.io/willianjusten/pens/public/</a></li>
+            <li><a href="https://www.w3schools.com/css/css3_animations.asp">https://www.w3schools.com/css/css3_animations.asp</a></li>
+            <li><a href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a></li>
+            <li><a href="http://mynameismatthieu.com/WOW/">http://mynameismatthieu.com/WOW/</a></li>
+            <li><a href="http://pavlyukpetr.com/awesome/">http://pavlyukpetr.com/awesome/</a></li>
+            <li><a href="https://robots.thoughtbot.com/css-animation-for-beginners">https://robots.thoughtbot.com/css-animation-for-beginners</a></li>
+            <li><a href="https://webdesign.tutsplus.com/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937">https://webdesign.tutsplus.com/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="color">LINKS CSS GRID LAYOUT</h2>
+          <ul style="font-size: 1.5rem">
+            <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout </a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a></li>
+            <li><a href="https://codepen.io/simoneas02/post/grid-layout">https://codepen.io/simoneas02/post/grid-layout</a></li>
+            <li><a href="https://tympanus.net/codrops/css_reference/grid/">https://tympanus.net/codrops/css_reference/grid/</a></li>
+            <li><a href="https://medium.com/@patrickbrosset/css-grid-layout-6c9cba6e8a5a">https://medium.com/@patrickbrosset/css-grid-layout-6c9cba6e8a5a</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="color">LINKS GRADIENTS</h2>
+          <ul style="font-size: 1.5rem">
+            <li><a href="https://www.youtube.com/watch?v=udV_GD5QNsI">https://www.youtube.com/watch?v=udV_GD5QNsI</a></li>
+            <li><a href="https://www.w3schools.com/css/css3_gradients.asp">https://www.w3schools.com/css/css3_gradients.asp</a></li>
+            <li><a href="https://webgradients.com/">https://webgradients.com/</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_gradients">https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_gradients</a></li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section>
+        <h1>Obrigado!</h1>
+        <img src="https://media.giphy.com/media/3o7bu3ZBAC6sUDvuNO/giphy.gif" alt="">
+      </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+
+        dependencies: [{
+          src: 'plugin/markdown/marked.js'
+        }, {
+          src: 'plugin/markdown/markdown.js'
+        }, {
+          src: 'plugin/notes/notes.js',
+          async: true
+        }, {
+          src: 'plugin/highlight/highlight.js',
+          async: true,
+          callback: function() {
+            hljs.initHighlightingOnLoad();
+          }
+        }]
+      });
+    </script>
+</body>
+
+</html>

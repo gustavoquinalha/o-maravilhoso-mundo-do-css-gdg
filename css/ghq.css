@@ -1,0 +1,389 @@
+.container {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  flex-direction: column;
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.align-baseline {
+  align-items: baseline;
+}
+.align-stretch {
+  align-items: stretch;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.basis1 {
+  flex-basis: 100px!important;
+}
+.basis2 {
+  flex-basis: 200px!important;
+}
+.basis3 {
+  flex-basis: 300px!important;
+}
+.basis4 {
+  flex-basis: 400px!important;
+}
+.basis5 {
+  flex-basis: 500px!important;
+}
+.basis6 {
+  flex-basis: 600px!important;
+}
+.flex {
+  flex: 1;
+}
+.flex1 {
+  flex-grow: 1;
+}
+.flex2 {
+  flex-grow: 2;
+}
+.flex3 {
+  flex-grow: 3;
+}
+.flex4 {
+  flex-grow: 4;
+}
+.flex5 {
+  flex-grow: 5;
+}
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bgg{
+  background: #00d46a;
+  padding-left: 5px!important;
+  padding-right: 5px!important;
+  border-radius: 4px;
+  font-weight: 900!important;
+  line-height: 1.5em!important
+}
+
+.main {
+  background: #f12ec6
+}
+.cross {
+  background: #2e82f1
+}
+
+
+.column .item {
+  margin-right: 0px!important;
+}
+
+.item {
+  background: #00d46a;
+  padding: 10px!important;
+  margin: 2px!important
+}
+/*.item:last-child {
+  margin-right: 0!important;
+}*/
+
+
+.example .container {
+  width: 100%;
+  background: #2c2c2c;
+  padding: 10px!important;
+  margin: 1px
+}
+
+.pai{
+  width: 100%;
+  background: #cdcdcd;
+  padding: 20px!important;
+  padding-bottom: 0!important;
+  color: #00d46a;
+  transform: translateY(10px);
+}
+
+blockquote {
+  font-size: 35px!important
+}
+.color-white {
+  color: #fff!important
+}
+.color-green {
+  color: #00d46a!important
+}
+
+pre,
+code {
+  width: 100%!important;
+}
+
+.fixul li {
+  font-size: 0.8em
+}
+
+.wrap-example {
+  flex-basis: 400px
+}
+
+
+/*facebook example*/
+.facebook-example .menuFacebook {
+  background: #3B5998;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+}
+.facebook-example .input{
+  width: 200px;
+  margin-left: 5px;
+  border: none;
+  height: 22px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px
+}
+.facebook-example .faceicon{
+  color: #18253D;
+  transition: .2s;
+  cursor: pointer;
+}
+.facebook-example .icon {
+  font-size: 18px!important;
+  margin: 5px!important;
+  color: red
+}
+.facebook-example .faceicon:hover {
+  color: #d7d6d6!important
+}
+.facebook-example .icon:last-child {
+  border-left: 1px solid #374b70;
+  padding-left: 20px;
+}
+.facebook-example .fotoPerfil {
+  width: 25px;
+  height: 25px;
+  background: #374b70;
+  border-radius: 3px
+}
+.facebook-example .link {
+  font-size: 11px!important;
+  margin: 5px!important;
+  font-weight: 0
+}
+/*facebook example*/
+
+/*exemplo1*/
+.example1 .icon h1 {
+  font-size: 20px!important;
+  margin: 0!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.example1 .icon p {
+  font-size: 16px;
+  margin: 0!important;
+}
+/*exemplo1*/
+.dad {
+  border: 2px solid red!important;
+  box-sizing: border-box;
+}
+.children {
+  border: 2px solid #77f42b!important;
+  margin: 1px!important;
+  box-sizing: border-box;
+
+}
+.example2 .header {
+  background: #1d71ff;
+  height: 100px;
+  margin-bottom: 10px
+}
+.example3 .navbar{
+  background: #fff;
+  height: 100px;
+  color: #363333;
+  margin-bottom: 20px;
+}
+.example3 .nav:first-child::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #bb4d1e;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.example3 .nav {
+  cursor: pointer;
+  transition: .3s
+}
+.example3 .nav:hover {
+  color: #000;
+  transform: scale(1.3, 1.3);
+}
+
+
+
+
+.post {
+background: #fff;
+height: 600px;
+text-align: left;
+font-size: 14px!important;
+padding: 10px!important;
+width: 500px
+}
+.post-header {
+margin-bottom: 10px!important
+}
+.post-header-name .name{
+  color: #365899
+}
+.post-header-name .time{
+color: #949494;
+font-size: 10px;
+}
+.post-img {
+background: green;
+background: url(./../img/devpr.png);
+background-position: center;
+background-size: cover;
+}
+.post-btn {
+height: 40px;
+color: #4B5056
+}
+.post-send-comment input {
+  border: none;
+  height: 40px;
+  width: 100%;
+  outline: none
+}
+.post-send-comment {
+  border: 1px solid #ccc!important;
+}
+.img-face {
+  width: 40px;
+  height: 40px;
+  background: url(https://cdn3.trampos.co/candidate_profiles/avatars/199263/c6c4a29d2de2618860b8f441ecbc55b91364bb34/medium/eu.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px!important
+}
+.post-btn div {
+  margin-right: 20px;
+}
+.iconsf .icon {
+  color: #4B5056
+}
+.sizepreface {
+  width: 50%;
+  margin-left: 10px!important
+}
+.ex {
+  background: #fff;
+  height: 300px;
+  margin: 5px!important;
+  color: #fff;
+  border-radius: 4px!important;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: .3s
+}
+.ex:hover {
+  transform: translateY(-5px);
+}
+.ex .black {
+  transition: .5s
+}
+.ex:hover .black {
+  background: rgba(0, 0, 0, .3);
+  transition: .3s
+}
+.ex-txt{
+  margin: 10px!important;
+  font-size: 27px!important;
+  line-height: 27px!important;
+  text-align: left;
+  text-shadow: 0px 0px 10px #000;
+  z-index: 9
+}
+.black {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+}
+.rounded {
+  border-radius: 50%;
+  border: 10px solid #00d46a!important;
+  box-sizing: border-box;
+}

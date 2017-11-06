@@ -1,0 +1,17 @@
+.best {
+  text-transform: uppercase;
+}
+.best span {
+  color: #00d46a;
+  opacity: .5;
+  font-size: 22px
+}
+.box-test ul {
+  list-style: none
+}
+.box-test ul span {
+  color: #8be9fd
+}
+.box-test ul b {
+  color: #FF6EBF
+}
