@@ -143,9 +143,15 @@
 }
 
 .item {
-  background: #00d46a;
+  background: #00d46a!important;
   padding: 10px!important;
-  margin: 2px!important
+  margin: 2px!important;
+  width: 120px;
+  font-size: 30px!important;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*.item:last-child {
   margin-right: 0!important;
@@ -153,13 +159,12 @@
 
 
 .example .container {
-  width: 100%;
-  background: #2c2c2c;
+  background: #ddd;
   padding: 10px!important;
   margin: 1px
 }
 
-.pai{
+.pai {
   width: 100%;
   background: #cdcdcd;
   padding: 20px!important;

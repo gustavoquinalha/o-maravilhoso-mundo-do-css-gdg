@@ -15,3 +15,10 @@
 .box-test ul b {
   color: #FF6EBF
 }
+.uli {
+  color: #00d46a
+}
+.props li {
+  font-size: 35px;
+  margin-bottom: 10px;
+}

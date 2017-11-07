@@ -201,7 +201,6 @@
             <li>Lógica</li>
             <li>Redundância</li>
             <li>Performance<span>!important</span></li>
-
           </ul>
         </section>
 
@@ -211,40 +210,416 @@
         <section>
           <h1>Flexbox</h1>
           <hr class="hr-theme">
+          <img src="img/oq.svg" width="500" alt="">
         </section>
 
         <section>
-          <h1>CSS GRID LAYOUT</h1>
-          <hr class="hr-theme">
+          <p>O Flexbox é um modulo da W3C responsável por fornecer uma maior eficiência para alinhar elementos tanto horizontalmente quanto verticalmente e distribuir espaço dentro de um container.</p>
         </section>
 
         <section>
-          <h1>ANIMAÇÕES (KEYFRAMES, TRANSFORMS E TRANSITIONS)</h1>
-          <hr class="hr-theme">
+          <p>This module introduces a new layout mode, flex layout, which is designed for laying out more complex applications and webpages.</p>
+          <small><a href="https://www.w3.org/TR/css-flexbox-1/" target="_blank">https://www.w3.org/TR/css-flexbox-1/</a></small>
         </section>
 
         <section>
-          <h1>SVG</h1>
-          <hr class="hr-theme">
+          Flexbox layout is most appropriate to the components of an application, and small-scale layouts, while the Grid layout is intended for larger scale layouts.
+          <small><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></small>
         </section>
 
         <section>
-          <h1>ESTILIZAÇÃO</h1>
+          <h2>Exemplos</h2>
           <hr class="hr-theme">
+          <img src="img/ex2.png" width="800" alt="">
         </section>
 
         <section>
-          <h1>O RESTO</h1>
-          <hr class="hr-theme">
+          <img src="img/ex1.jpg" width="800" alt="">
         </section>
 
         <section>
-          <h1>SUSPRESA</h1>
+          <img src="img/p2.png" width="100%" alt="">
+        </section>
+
+        <section>
+          <img src="img/p4.png" width="800" alt="">
+        </section>
+
+        <section>
+          <img src="img/p5.png" width="800" alt="">
+        </section>
+
+        <section>
+          <h3>BELEZA, mas como funciona?</h3>
           <hr class="hr-theme">
+          <img src="img/flux.png" width="500" alt="">
+          <p>
+            <span>Main Axis: justify-content</span><br>
+            <span>Cross Axis: align-items</span>
+          </p>
+        </section>
+
+        <section>
+          <p>
+            O flexbox é baseado em container e item, pai e filho. O pai é responsável pelo comportamento dos filhos.
+          </p>
+          <img src="https://media.giphy.com/media/xT5LMQ8zYjL7229MuA/giphy.gif" width="500" alt="">
+        </section>
+
+        <section>
+          <div class="container wrap">
+            <div class="flex1 basis2">
+              <img src="img/container1.svg" width="100%" alt="">
+            </div>
+            <div class="flex1 basis2">
+              <img src="img/container2.svg" width="100%" alt="">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Propriedades do container(pai):</h3>
+          <hr class="hr-theme">
+          <ul class="props">
+            <li><span class="color-green">Display</span>: flex | inline-flex</li>
+            <li><span class="color-green">Flex-direction</span>: row | row-reverse | column | column-reverse</li>
+            <li><span class="color-green">Flex-wrap</span>: nowrap | wrap | wrap-reverse</li>
+            <li><span class="color-green">Justify-content</span>: flex-start | flex-end | center | space-between | space-around</li>
+            <li><span class="color-green">Align-items</span>: flex-start | flex-end | center | baseline | stretch</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Propriedades do item(filho):</h3>
+          <hr class="hr-theme">
+          <ul class="props">
+            <li><span class="color-green">Order</span>: integer</li>
+            <li><span class="color-green">Flex-grow</span>: number</li>
+            <li><span class="color-green">Flex-shrink</span>: number</li>
+            <li><span class="color-green">Flex-basis</span>: length | auto</li>
+            <li><span class="color-green">Align-self</span>: auto | flex-start | flex-end | center | baseline | stretch</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Display(container)</h3>
+          <div class="container">
+            <div class="example flex">
+              <span class="">block</span>
+              <div class="container" style="display: block">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+
+            <div class="example flex">
+              <span class="">flex</span>
+              <div class="container">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Flex-direction(container)</h3>
+          <div class="container column">
+            <div class="container flex">
+              <div class="example flex">
+                <span class="">row</span>
+                <div class="container row" style="">
+                  <div class="item" style="">1</div>
+                  <div class="item" style="">2</div>
+                </div>
+              </div>
+
+              <div class="example flex">
+                <span class="">row-inverse</span>
+                <div class="container row" style="flex-direction: row-reverse">
+                  <div class="item" style="">1</div>
+                  <div class="item" style="">2</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container flex">
+              <div class="example flex">
+                <span class="">column</span>
+                <div class="container column" style="">
+                  <div class="item" style="">1</div>
+                  <div class="item" style="">2</div>
+                </div>
+              </div>
+
+              <div class="example flex">
+                <span class="">column-inverse</span>
+                <div class="container column" style="flex-direction: column-reverse">
+                  <div class="item" style="">1</div>
+                  <div class="item" style="">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Flex-wrap(container)</h3>
+
+          <div class="container">
+            <div class="example flex">
+              <span class="">no-wrap</span>
+              <div class="container nowrap">
+                <div class="item basis3" style="">item</div>
+                <div class="item basis3" style="">item</div>
+              </div>
+            </div>
+
+            <div class="example flex">
+              <span class="">wrap</span>
+              <div class="container wrap">
+                <div class="item basis3" style="">item</div>
+                <div class="item basis3" style="">item</div>
+              </div>
+            </div>
+
+            <div class="example flex">
+              <span class="">wrap-reverse</span>
+              <div class="container wrap-reverse">
+                <div class="item basis3" style="">item 1</div>
+                <div class="item basis3" style="">item 2</div>
+              </div>
+            </div>
+
+          </div>
+          <span class="color" style="font-size: 20px">Todos os itens possuem a propriedade flex-basis: 300px</span>
+        </section>
+
+        <section>
+          <h3>Justify-content(container)</h3>
+            <div class="example flex">
+              <span class="">flex-start</span>
+              <div class="container" style="height: 500px; justify-content: flex-start">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Justify-content(container)</h3>
+            <div class="example flex">
+              <span class="">center</span>
+              <div class="container" style="height: 500px; justify-content: center">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Justify-content(container)</h3>
+            <div class="example flex">
+              <span class="">flex-end</span>
+              <div class="container" style="height: 500px; justify-content: flex-end">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Justify-content(container)</h3>
+            <div class="example flex">
+              <span class="">space-between</span>
+              <div class="container" style="height: 500px; justify-content: space-between">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Justify-content(container)</h3>
+            <div class="example flex">
+              <span class="">space-around</span>
+              <div class="container" style="height: 500px; justify-content: space-around">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-items(container)</h3>
+            <div class="example flex">
+              <span class="">flex-start</span>
+              <div class="container" style="height: 500px; align-items: flex-start">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-items(container)</h3>
+            <div class="example flex">
+              <span class="">center</span>
+              <div class="container" style="height: 500px; align-items: center">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-items(container)</h3>
+            <div class="example flex">
+              <span class="">flex-end</span>
+              <div class="container" style="height: 500px; align-items: flex-end">
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-items(container)</h3>
+            <div class="example flex">
+              <span class="">baseline</span>
+              <div class="container" style="height: 500px; align-items: baseline">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item<br>item<br>item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-items(container)</h3>
+            <div class="example flex">
+              <span class="">stretch</span>
+              <div class="container" style="height: 500px; align-items: stretch">
+                <div class="item" style="">item</div>
+                <div class="item" style="">item<br>item<br>item</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Order(item)</h3>
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="">1</div>
+                <div class="item" style="">2</div>
+                <div class="item" style="">3</div>
+                <div class="item" style="">4</div>
+                <div class="item" style="">5</div>
+              </div>
+            </div>
+
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="order: 3">1</div>
+                <div class="item" style="order: 1">2</div>
+                <div class="item" style="order: 2">3</div>
+                <div class="item" style="order: 5">4</div>
+                <div class="item" style="order: 4">5</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Flex-grow(item)</h3>
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="flex-grow: 1">flex-grow: 1</div>
+                <div class="item" style="">item</div>
+              </div>
+            </div>
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="flex-grow: 1">flex-grow: 1</div>
+                <div class="item" style="flex-grow: 1">flex-grow: 1</div>
+              </div>
+            </div>
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="flex-grow: 1">flex-grow: 1</div>
+                <div class="item" style="flex-grow: 2">flex-grow: 2</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Flex-basis(item)</h3>
+            <div class="example flex">
+              <div class="container" style="display: block">
+                <div class="item" style="width: 1000px; display: block">width: 1000px</div>
+                <div class="item" style="width: 500px; display: block">width: 500px</div>
+              </div>
+            </div>
+            <div class="example flex">
+              <div class="container" >
+                <div class="item" style="flex-basis: 1000px">flex-basis: 1000px</div>
+                <div class="item" style="flex-basis: 500px">flex-basis: 500px</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Align-self</h3>
+            <div class="example flex">
+              <div class="container" style="height: 500px">
+                <div class="item" style="align-self: flex-start">flex-start</div>
+                <div class="item" style="align-self: center">center</div>
+                <div class="item" style="align-self: flex-end">flex-end</div>
+                <div class="item" style="align-self: baseline">baseline</div>
+                <div class="item" style="align-self: stretch">stretch</div>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>O que mais podemos fazer?</h3>
+          <img src="img/boot1.png" width="100%" alt="">
+        </section>
+
+        <section>
+          <img src="img/boot2.png" width="100%" alt="">
+          <p>E assim é criado o Bootstrap.</p>
         </section>
 
 
       </section>
+
+      <section>
+        <h1>CSS GRID LAYOUT</h1>
+        <hr class="hr-theme">
+      </section>
+
+      <section>
+        <h1>ANIMAÇÕES (KEYFRAMES, TRANSFORMS E TRANSITIONS)</h1>
+        <hr class="hr-theme">
+      </section>
+
+      <section>
+        <h1>SVG</h1>
+        <hr class="hr-theme">
+      </section>
+
+      <section>
+        <h1>ESTILIZAÇÃO</h1>
+        <hr class="hr-theme">
+      </section>
+
+      <section>
+        <h1>O RESTO</h1>
+        <hr class="hr-theme">
+      </section>
+
+      <section>
+        <h1>SUSPRESA</h1>
+        <hr class="hr-theme">
+      </section>
+
+
+
 
 
       <section>
