@@ -1,0 +1,7 @@
+<svg width="300px" height="100px" style="transform: scale(2, 2)">
+  <rect x="0" y="0" width="300" height="100" fill="#333"/>
+  <rect x="0" y="0" width="30" height="30" fill="#00d46a">
+    <animateMotion path="M 250,80 H 50 Q 30,80 30,50 Q 30,20 50,20 H 250 Q 280,20,280,50 Q 280,80,250,80Z"
+      dur="3s" repeatCount="indefinite" rotate="auto">
+  </rect>
+</svg>
