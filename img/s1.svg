@@ -1,0 +1,125 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#FBFAF9;}
+    .st1{fill:#666665;}
+    .st2{fill:#494948;}
+    .st3{fill:#1DCA7F;}
+    .st4{fill:#6898AE;}
+    .st5{fill:#047870;}
+
+    @keyframes box-item {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.2, 1);
+      }
+    }
+    .box-item1 {
+      animation: box-item 6000ms ease-in-out infinite;
+      transform-origin: 193.4px 0;
+    }
+    .box-item2 {
+      animation: box-item 8000ms ease-in-out -1000ms infinite;
+      transform-origin: 116.8px 0;
+    }
+    .box-item3 {
+      animation: box-item 7000ms ease-in-out -3500ms infinite;
+      transform-origin: 193.4px 0;
+    }
+    .box-item4 {
+      animation: box-item 6100ms ease-in-out -2400ms infinite;
+      transform-origin: 116.8px 0;
+    }
+    .box-item5 {
+      animation: box-item 5600ms ease-in-out -600ms infinite;
+      transform-origin: 193.4px 0;
+    }
+
+    @keyframes cursor {
+      25%, 30% {
+        transform: translate(-40px, 30px) rotate(30deg);
+      }
+      70% {
+        transform: none;
+      }
+    }
+    .cursor {
+      animation: cursor 7000ms ease-in-out -4000ms infinite;
+      transform-origin: 247px 180px;
+    }
+
+    @keyframes dots {
+      from {
+        transform: translateX(18px);
+      }
+    }
+    .dots {
+      animation: dots 6000ms ease-in-out alternate infinite;
+    }
+
+    @keyframes help {
+      from {
+        transform: scale(0.8);
+      }
+    }
+    .help {
+      animation: help 1500ms ease-in-out alternate -800ms infinite;
+      transform-origin: 131.3px 223.8px;
+    }
+  </style>
+
+  <g class="dots">
+    <ellipse class="st0" cx="26.8" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="26.8" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="26.8" cy="131.1" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="43.6" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="43.6" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="43.6" cy="131.1" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="35.2" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="35.2" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="35.2" cy="131.1" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="60.5" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="60.5" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="60.5" cy="131.1" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="52.1" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="52.1" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="52.1" cy="131.1" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="68.9" cy="114.9" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="68.9" cy="123" rx="1.4" ry="1.3"/>
+    <ellipse class="st0" cx="68.9" cy="131.1" rx="1.4" ry="1.3"/>
+  </g>
+
+  <path class="st1" d="M68.4,92.1h179.7c2.3,0,4.2,1.9,4.2,4.2v123.2c0,2.3-1.9,4.2-4.2,4.2H68.4c-2.3,0-4.2-1.9-4.2-4.2V96.4C64.2,94,66.1,92.1,68.4,92.1z"/>
+  <path class="st2" d="M64.2,220.1V95.9c0-2.1,1.7-3.8,3.8-3.8h22.6v131.7H68C65.9,223.8,64.2,222.2,64.2,220.1z"/>
+
+  <path class="st0" d="M224.1,45.1h-32.4c-2.1,0-3.8,1.7-3.8,3.8v47.4c0,2.1,1.7,3.8,3.8,3.8h15.7v19.2c-0.8,0.2-1.4,0.9-1.4,1.8c0,1,0.8,1.9,1.9,1.9c1,0,1.9-0.8,1.9-1.9c0-0.9-0.6-1.6-1.4-1.8V100h15.7c2.1,0,3.8-1.7,3.8-3.8V48.9C227.8,46.8,226.2,45.1,224.1,45.1z"/>
+  <rect x="193.4" y="68.5" class="st3 box-item1" width="29" height="3.6"/>
+  <rect x="193.4" y="76.2" class="st4 box-item5" width="29" height="3.6"/>
+  <rect x="193.4" y="84" class="st4 box-item3" width="17.7" height="3.6"/>
+
+  <path class="st0" d="M227.1,169.4h-38.6v-38.6h38.6V169.4z M189.5,168.4h36.7v-36.7h-36.7V168.4z"/>
+  <polygon class="st0" points="226.3,169.2 188.7,131.6 189.4,130.9 227,168.5"/>
+  <polygon class="st0" points="189.4,169.2 188.7,168.5 226.3,130.9 227,131.6"/>
+  <polygon class="st5" points="204.6,52.7 197.9,62.3 211.2,62.3"/>
+  <polygon class="st5" points="213.2,55.9 208.6,62.3 217.8,62.3"/>
+
+  <rect x="112.5" y="205" class="st3" width="37.6" height="37.6"/>
+  <path class="st5 help" d="M134.2,223.1l-0.8,0.9c-0.7,0.7-1.1,1.3-1.1,2.7h-1.9v-0.5c0-1,0.4-2,1.1-2.7l1.2-1.2c0.3-0.3,0.6-0.8,0.6-1.3c0-1-0.8-1.9-1.9-1.9c-1,0-1.9,0.8-1.9,1.9h-1.9c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C135.1,221.9,134.8,222.6,134.2,223.1z M132.3,230.4h-1.9v-1.9h1.9V230.4z M131.3,214.4c-5.2,0-9.4,4.2-9.4,9.4s4.2,9.4,9.4,9.4c5.2,0,9.4-4.2,9.4-9.4C140.8,218.7,136.5,214.4,131.3,214.4z"/>
+  
+  <path class="st0" d="M147.6,123h-32.4c-2.1,0-3.8,1.7-3.8,3.8v47.4c0,2.1,1.7,3.8,3.8,3.8h15.7V205h0.9v-27.1h15.7c2.1,0,3.8-1.7,3.8-3.8v-47.4C151.3,124.7,149.6,123,147.6,123z"/>
+  <rect x="116.8" y="146.4" class="st3 box-item2" width="29" height="3.6"/>
+  <rect x="116.8" y="154.1" class="st5" width="29" height="3.6"/>
+  <rect x="116.8" y="161.9" class="st5 box-item4" width="17.7" height="3.6"/>
+  <path class="st5" d="M137,135.8c0,1.5-0.6,2.8-1.5,3.8c-1,1.1-2.5,1.8-4.1,1.8c-1.6,0-3.1-0.7-4.1-1.8c-0.9-1-1.5-2.4-1.5-3.8c0-3.1,2.5-5.6,5.6-5.6C134.5,130.2,137,132.7,137,135.8z"/>
+  <circle class="st3" cx="131.3" cy="134.1" r="1.8"/>
+  <path class="st3" d="M135.5,139.7c-1,1.1-2.5,1.8-4.1,1.8c-1.6,0-3.1-0.7-4.1-1.8c0.6-1.7,2.2-2.9,4.1-2.9C133.3,136.8,134.9,138,135.5,139.7z"/>
+
+  <rect x="148.3" y="149.6" class="st0" width="40.7" height="0.9"/>
+
+  <g class="cursor">
+    <path class="st3" d="M247,209.2c-11,0-20-9-20-20s9-20,20-20s20,9,20,20S258,209.2,247,209.2z M247,171.1c-10,0-18.1,8.1-18.1,18.1s8.1,18.1,18.1,18.1c10,0,18.1-8.1,18.1-18.1S257,171.1,247,171.1z"/>
+    <polygon class="st0" points="243.4,198.4 237.8,180 256.2,185.6 249.9,188.7 255.9,194.7 252.5,198.1 246.5,192.1"/>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#666665;}
+    .st1{fill:#494948;}
+    .st2{fill:#FBFAF9;}
+    .st3{fill:#1DCA7F;}
+    .st4{fill:#047870;}
+    .st5{fill:#6898AE;}
+    
+    @keyframes box-item {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.2, 1);
+      }
+    }
+    .box-item1 {
+      animation: box-item 6000ms ease-in-out infinite;
+      transform-origin: 53.8px 0;
+    }
+    .box-item2 {
+      animation: box-item 8000ms ease-in-out -5000ms infinite;
+      transform-origin: 53.8px 0;
+    }
+    .box-item3 {
+      animation: box-item 7000ms ease-in-out -6000ms infinite;
+      transform-origin: 53.8px 0;
+    }
+    .box-item4 {
+      animation: box-item 6100ms ease-in-out -4400ms infinite;
+      transform-origin: 53.8px 0;
+    }
+    .box-item5 {
+      animation: box-item 5600ms ease-in-out -3100ms infinite;
+      transform-origin: 53.8px 0;
+    }
+
+    @keyframes dot {
+      0%, 6%, 30%, 36%, 70%, 76% {
+        opacity: 1;
+      }
+      1%, 5%, 31%, 35%, 71%, 75% {
+        opacity: 0;
+      }
+    }
+    .dot1 {
+      animation: dot 8000ms linear infinite;
+    }
+    .dot2 {
+      animation: dot 8000ms linear -4200ms infinite;
+    }
+    .dot3 {
+      animation: dot 10000ms linear -8000ms infinite;
+    }
+    .dot4 {
+      animation: dot 7000ms linear -1000ms infinite;
+    }
+    .dot5 {
+      animation: dot 5000ms linear -2500ms infinite;
+    }
+  </style>
+
+  <path class="st0" d="M275,37.5V100H25V37.5C25,30.6,30.6,25,37.5,25h225C269.4,25,275,30.6,275,37.5z"/>
+  <path class="st1" d="M200,100V25h62.5c6.9,0,12.5,5.6,12.5,12.5V100H200z"/>
+  <circle class="st2 dot2" cx="218.1" cy="53.3" r="4.9"/>
+  <circle class="st2 dot1" cx="237.5" cy="53.3" r="4.9"/>
+  <circle class="st2" cx="256.9" cy="53.3" r="4.9"/>
+  <circle class="st2" cx="218.1" cy="71.7" r="4.9"/>
+  <circle class="st2" cx="237.5" cy="71.7" r="4.9"/>
+  <circle class="st2 dot3" cx="256.9" cy="71.7" r="4.9"/>
+  <rect x="53.8" y="48.5" class="st3 box-item5" width="122.1" height="9"/>
+  <rect x="53.8" y="67.5" class="st4" width="72.1" height="9"/>
+
+  <rect x="25" y="112.5" class="st0" width="250" height="75"/>
+  <rect x="200" y="112.5" class="st1" width="75" height="75"/>
+  <circle class="st2" cx="218.1" cy="140.8" r="4.9"/>
+  <circle class="st2" cx="237.5" cy="140.8" r="4.9"/>
+  <circle class="st2 dot5" cx="256.9" cy="140.8" r="4.9"/>
+  <circle class="st2 dot4" cx="218.1" cy="159.2" r="4.9"/>
+  <circle class="st2" cx="237.5" cy="159.2" r="4.9"/>
+  <circle class="st2 dot1" cx="256.9" cy="159.2" r="4.9"/>
+  <rect x="53.8" y="136" class="st5 box-item3" width="122.1" height="9"/>
+  <rect x="53.8" y="155" class="st3 box-item2" width="72.1" height="9"/>
+  
+  <path class="st0" d="M275,200v62.5c0,6.9-5.6,12.5-12.5,12.5h-225c-6.9,0-12.5-5.6-12.5-12.5V200H275z"/>
+  <path class="st1" d="M200,200h75v62.5c0,6.9-5.6,12.5-12.5,12.5H200V200z"/>
+  <circle class="st2 dot1" cx="218.1" cy="228.3" r="4.9"/>
+  <circle class="st2" cx="237.5" cy="228.3" r="4.9"/>
+  <circle class="st2 dot2" cx="256.9" cy="228.3" r="4.9"/>
+  <circle class="st2" cx="218.1" cy="246.7" r="4.9"/>
+  <circle class="st2" cx="237.5" cy="246.7" r="4.9"/>
+  <circle class="st2 dot4" cx="256.9" cy="246.7" r="4.9"/>
+  <rect x="53.8" y="223.5" class="st4 box-item4" width="122.1" height="9"/>
+  <rect x="53.8" y="242.5" class="st3 box-item1" width="72.1" height="9"/>
+</svg>

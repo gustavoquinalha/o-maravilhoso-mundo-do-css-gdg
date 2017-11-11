@@ -1,0 +1,151 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#666665;}
+    .st1{fill:#FBFAF9;}
+    .st2{fill:#6898AE;}
+    .st3{fill:#344C57;}
+    .st4{fill:#047870;}
+    .st5{fill:#1DCA7F;}
+    .st6{fill:#494948;}
+
+    @keyframes box {
+      from {
+        transform: translateY(-7px);
+      }
+    }
+    .box {
+      animation: box 5000ms ease-in-out -1100ms alternate infinite;
+    }
+    @keyframes box-item {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.2, 1);
+      }
+    }
+    .box-item1 {
+      animation: box-item 6000ms ease-in-out infinite;
+      transform-origin: 177.1px 0;
+    }
+    .box-item2 {
+      animation: box-item 8000ms ease-in-out -1000ms infinite;
+      transform-origin: 199.8px 0;
+    }
+    .box-item3 {
+      animation: box-item 7000ms ease-in-out -3500ms infinite;
+      transform-origin: 177.1px 0;
+    }
+    .box-item4 {
+      animation: box-item 6100ms ease-in-out -2400ms infinite;
+      transform-origin: 177.1px 110.6px;
+    }
+
+    @keyframes dots {
+      from {
+        transform: translateX(-18px);
+      }
+    }
+    .dots {
+      animation: dots 5000ms ease-in-out -2000ms alternate infinite;
+    }
+
+    @keyframes square1 {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.3, 1);
+      }
+    }
+    .square1 {
+      animation: square1 8000ms ease-in-out infinite;
+      transform-origin: 80.4px 0;
+    }
+
+    @keyframes square2 {
+      0%, 50% {
+        transform: none;
+      }
+      25% {
+        transform: scale(0.5);
+      }
+    }
+    .square2 {
+      animation: square2 5000ms ease-in-out -3000ms infinite;
+      transform-origin: 86px 116.5px;
+    }
+  </style>
+
+	<path class="st0" d="M45.3,90.8h180.9c2.4,0,4.3,1.9,4.3,4.3v124.1c0,2.4-1.9,4.3-4.3,4.3H45.3c-2.4,0-4.3-1.9-4.3-4.3V95.1C41,92.7,42.9,90.8,45.3,90.8z"/>
+
+	<g>
+    <path class="st1" d="M106.3,106.4c0,1.6-1.3,2.8-2.8,2.8c-1.6,0-2.8-1.3-2.8-2.8s2.8-6.2,2.8-6.2S106.3,104.8,106.3,106.4z"/>
+    <polygon class="st2" points="112.6,95.5 103.5,97.2 103.6,88 122.2,65.6 131.3,73.1"/>
+    <rect x="115.1" y="68.6" transform="matrix(0.7683 0.64 -0.64 0.7683 74.8305 -63.1796)" class="st3" width="19.2" height="6.4"/>
+    <path class="st3" d="M128.9,76l-9-7.5l6.3-7.6c2.1-2.5,5.8-2.8,8.3-0.8l0,0c2.5,2.1,2.8,5.8,0.8,8.3L128.9,76z"/>
+  </g>
+
+  <g class="box">
+    <path class="st1" d="M209.1,151h-34.8c-2.3,0-4.3-1.9-4.3-4.3V78.5c0-2.3,1.9-4.3,4.3-4.3h34.8c2.3,0,4.3,1.9,4.3,4.3v68.2C213.4,149,211.5,151,209.1,151z M174.3,75.2c-1.8,0-3.3,1.5-3.3,3.3v68.2c0,1.8,1.5,3.3,3.3,3.3h34.8c1.8,0,3.3-1.5,3.3-3.3V78.5c0-1.8-1.5-3.3-3.3-3.3H174.3z"/>
+    <path class="st4" d="M202.1,94.1c0,2.7-1.1,5.2-2.8,7.1c-1.9,2.1-4.6,3.3-7.6,3.3c-3,0-5.7-1.3-7.6-3.3c-1.7-1.9-2.8-4.3-2.8-7.1c0-5.8,4.7-10.4,10.4-10.4C197.5,83.7,202.1,88.3,202.1,94.1z"/>
+    <circle class="st5" cx="191.7" cy="90.9" r="3.2"/>
+    <path class="st5" d="M199.4,101.2c-1.9,2.1-4.6,3.3-7.6,3.3c-3,0-5.7-1.3-7.6-3.3c1.1-3.1,4.1-5.4,7.6-5.4C195.2,95.8,198.2,98.1,199.4,101.2z"/>
+    <rect x="177.1" y="111.8" class="st5 box-item1" width="43.4" height="3.7"/>
+    <rect x="177.1" y="119.6" class="st4 box-item4" width="29.2" height="3.7"/>
+    <rect x="177.1" y="127.3" class="st5 box-item3" width="19" height="3.7"/>
+    <rect x="199.8" y="127.3" class="st2 box-item2" width="16.9" height="3.7"/>
+    <rect x="177.4" y="139" class="st1" width="3.7" height="3.7"/>
+  </g>
+	
+  <rect x="80.4" y="131.3" class="st5 square1" width="75.3" height="36.1"/>
+  <rect x="80.4" y="110.6" class="st1 square2" width="11.2" height="11.2"/>
+  
+  <path class="st6" d="M41,219.7V94.6c0-2.1,1.7-3.8,3.8-3.8h22.7v132.6H44.8C42.7,223.5,41,221.8,41,219.7z"/>
+  <path class="st1" d="M114.5,239.3H84.2c-2.1,0-3.8-1.7-3.8-3.8v-30.3c0-2.1,1.7-3.8,3.8-3.8h30.3c2.1,0,3.8,1.7,3.8,3.8v30.3
+  C118.3,237.6,116.6,239.3,114.5,239.3z"/>
+  <path class="st5" d="M101.4,231.1h-4.1v-15.5h-5.5v-3.8H107v3.8h-5.5V231.1z"/>
+
+	<g class="dots">
+    <ellipse class="st1" cx="155.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="155.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="155.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="172.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="172.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="172.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="164.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="164.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="164.1" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="189.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="189.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="189.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="181.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="181.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="181.1" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="206.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="206.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="206.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="198.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="198.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="198.1" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="223.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="223.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="223.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="215.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="215.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="215.1" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="240.6" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="240.6" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="240.6" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="232.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="232.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="232.1" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="257.5" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="257.5" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="257.5" cy="204.3" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="249.1" cy="188" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="249.1" cy="196.2" rx="1.4" ry="1.4"/>
+    <ellipse class="st1" cx="249.1" cy="204.3" rx="1.4" ry="1.4"/>
+	</g>
+</svg>
